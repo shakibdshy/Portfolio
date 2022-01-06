@@ -194,17 +194,26 @@ img {
     z-index: -1;
 }
 
+.about-left .shape1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -70px;
+    right: -50px;
+    z-index: -1;
+}
+
 .about-right h3 {
     color: #333333;
 }
 
 .about-right p {
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .about-right .btn {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .text-right {
