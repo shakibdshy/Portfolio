@@ -175,9 +175,23 @@ img {
     margin-bottom: 100px;
 }
 
+.about-left {
+    position: relative;
+}
+
 .about-left img {
     width: 400px;
     height: 400px;
+}
+
+.about-left .shape {
+    width: 227px;
+    height: 227px;
+    position: absolute;
+    top: 50%;
+    left: -100px;
+    transform: translateY(-50%);
+    z-index: -1;
 }
 
 .about-right h3 {
